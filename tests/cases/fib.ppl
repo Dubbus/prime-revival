@@ -1,0 +1,10 @@
+EXPORT FIB(n)
+BEGIN
+  LOCAL a:=0, b:=1, t, i;
+  FOR i FROM 1 TO n DO
+    t:=a+b; a:=b; b:=t;
+  END;
+  RETURN a;
+END;
+PRINT(FIB(10));
+PRINT(FIB(0));

@@ -1,0 +1,9 @@
+survey/clones/
+*.hpprgm
+*.hpappdir*
+__pycache__/
+.venv/
+re-private/
+tests/hardware/captures/
+backups/
+CLAUDE.md

@@ -1,0 +1,6 @@
+LOCAL L:={3,1,4};
+L(2):=9;
+PRINT(L);
+PRINT(L(3), " ", SIZE(L));
+PRINT(MAX(L), " ", ΣLIST(L));
+PRINT(7/2, " ", 8/2, " ", 2^3^2);
